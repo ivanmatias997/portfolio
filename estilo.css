@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    width: 100%;
+}
+body{
+    background-image: url("fotos/fondo.jpg");
+    background-attachment: fixed;
+    background-position: all;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+/* navBar */
+
+nav{
+ opacity: 90%;
+
+}
+nav button{
+    width: 60px;
+}
+.nav-link:hover{
+    color: hsl(145, 69%, 53%)!important;
+}
+
+
+
+/* INICIO */
+
+section .inicio{
+    background-image: url("fotos/Dia-del-programador.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: all;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    opacity: 1,1;
+}
+
+
+
+section .inicio{
+    margin: 0 ;
+}
+.inicio h3,.inicio h4,.inicio i{
+    margin-top: 5vh;
+    color: white;
+    padding-left: 10px;
+}
+.inicio i{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff
+}
+.inicio span{
+    font-size: 35px;
+    color: rgb(62, 223, 75);
+}
+.cuadro{
+    background-color:rgba(13, 13, 14, 0.8);
+    width: 70%;
+    border: 1px solid #3a2c13 ;
+    margin-top: 20%;
+}
+
+/* sobre mi */
+.info{
+    padding: 15vh 20px 15vh 20px;
+    margin-bottom: 0;
+}
+.cabeza{
+    color: #0c4fb4;
+    text-shadow: 1px 1px 2px hsl(221, 70%, 8%);
+    font-style: italic;
+}
+.info p{
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: justify;
+}
+.sobreMi{
+    background-color: rgb(238,240,251);
+}
+.sobreMi button{
+    width: 200px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: auto auto;
+    border-radius: 8px;
+}
+
+
+/* formacion y certificaciones */
+.formacion h2, .formacion h3{
+    font-family: 'Domine', serif;
+}
+.formacion-padre{
+    width: 100%;
+    height: fit-content;
+    background-color: cadetblue;
+}
+.formacion-padre ul{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+/* "carousel" */
+.carousel img{
+    background-color: cadetblue;
+}
+
+/* conocimientos en programacion web */
+
+.conocimientos .version{
+    box-shadow: 0 4px 8px 0 rgba(77, 153, 84, 0.9), 0 6px 20px 0 rgba(77, 153, 84, 0.9);
+}
+.conocimientos .front{
+    box-shadow: 0 4px 8px 0 rgba(39, 131, 218, 0.9), 0 6px 20px 0 rgba(39, 131, 218, 0.9);
+}
+.conocimientos .back{
+    box-shadow: 0 4px 8px 0 rgba(238,152,72, 0.9), 0 6px 20px 0 rgba(238,152,72, 0.9);;
+}
+.conocimientos .row p{
+    text-align: justify;
+}
+
+
+.conocimientos .front h2{
+    text-decoration: underline rgb(39, 131, 218);
+}
+.conocimientos .back h2{
+    text-decoration: underline rgb(238,152,72);
+}
+.conocimientos .version h2{
+    text-decoration: underline rgb(77,153,84);
+}
+.conocimientos li{
+    font-family: 'Domine', serif;
+    list-style:lower-greek;
+}
+
+/* Mis proyectos */
+
+
+/* redes sociales */
+.redes{
+    background-color: rgba(255, 255, 255, 0.904);
+}
+.redes a,abbr{
+    color: #808080;
+    transition: 500ms;
+}
+.redes .facebook:hover{
+    color:blue;
+    scale: 1.1;
+}
+.redes .instagram:hover{
+    color:rgb(254,2,6);
+    scale: 1.1;
+}
+.redes .whatsapp:hover{
+    color:rgb(0,167,89);
+    scale: 1.1;
+}
+.redes .git:hover{
+    color: black;
+    text-shadow: 1px solid blue;
+    scale: 1.1;
+}
+.redes .mail:hover{
+    color:rgb(211,46,27);
+    scale: 1.1;
+}
