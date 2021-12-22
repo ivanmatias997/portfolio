@@ -61,8 +61,9 @@ section .inicio{
 .cuadro{
     background-color:rgba(13, 13, 14, 0.8);
     width: 70%;
-    border: 1px solid #3a2c13 ;
+    border: 1px solid rgb(69,107,56) ;
     margin-top: 20%;
+    border-radius: 15px;
 }
 
 /* sobre mi */
