@@ -1,3 +1,4 @@
+// typed
 const typed = new Typed(".typed",{
     strings: [
         "<i>Soy estudiante de ingenieria industrial.</i>",
@@ -24,3 +25,14 @@ const typed = new Typed(".typed",{
 var scroll = new SmoothScroll('a[href*="#"]',{
     speed : 800,
 });
+
+// Jquery
+$(document).ready(function(){
+    const altura = $(".primera-parte").outerHeight()-350;
+    $(".info p").hide()
+    $(window).scroll(function(){
+        if($(window).scrollTop()>=altura){
+            $(".info p").slideDown(1200)
+        }
+    })
+  });
