@@ -14,7 +14,12 @@ body{
 
 nav{
  opacity: 90%;
-
+}
+nav a pre{
+    margin: 0;
+}
+nav a pre span{
+    color: red;
 }
 nav button{
     width: 60px;
