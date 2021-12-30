@@ -26,13 +26,10 @@ var scroll = new SmoothScroll('a[href*="#"]',{
     speed : 800,
 });
 
-// Jquery
-$(document).ready(function(){
-    const altura = $(".primera-parte").outerHeight()-350;
-    $(".info p").hide()
-    $(window).scroll(function(){
-        if($(window).scrollTop()>=altura){
-            $(".info p").slideDown(1200)
-        }
-    })
-  });
+// AOS
+
+AOS.init({
+    duration: 1300,
+    once: false,
+    offset: 120,
+});
