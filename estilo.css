@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    width: 100%;
 }
 body{
     background-image: url("fotos/fondo.jpg");
@@ -91,7 +90,7 @@ section .inicio{
 }
 .sobreMi button{
     width: 200px;
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; /* verde */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -109,14 +108,15 @@ section .inicio{
     font-family: 'Domine', serif;
 }
 .formacion-padre{
-    width: 100%;
     height: fit-content;
     background: linear-gradient(90deg, rgba(15,166,106,1) 0%, rgba(20,18,201,1) 35%, rgba(14,12,64,1) 100%);
 }
 .formacion-padre ul{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-
+.formacion-padre ul li{
+    width: 100%;
+}
 
 /* "carousel" */
 .carousel img{
