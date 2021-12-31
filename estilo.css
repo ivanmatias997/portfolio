@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0; 
 }
 body{
     background-image: url("fotos/fondo.jpg");
@@ -12,7 +12,8 @@ body{
 /* navBar */
 
 nav{
- opacity: 90%;
+ opacity: 85%;
+ 
 }
 nav a pre{
     margin: 0;
@@ -65,7 +66,7 @@ section .inicio{
 .cuadro{
     background-color:rgba(13, 13, 14, 0.8);
     width: 70%;
-    border: 1px solid rgb(69,107,56) ;
+    border: 2px solid rgb(69,107,56) ;
     margin-top: 20%;
     border-radius: 15px;
 }
@@ -74,6 +75,8 @@ section .inicio{
 .info{
     padding: 15vh 20px 15vh 20px;
     margin-bottom: 0;
+    ;
+    
 }
 .cabeza{
     color: #0c4fb4;
@@ -87,6 +90,8 @@ section .inicio{
 }
 .sobreMi{
     background-color: rgb(238,240,251);
+    
+    
 }
 .sobreMi button{
     width: 200px;
@@ -123,6 +128,7 @@ section .inicio{
     background: linear-gradient(90deg, rgba(15,166,106,1) 0%, rgba(20,18,201,1) 35%, rgba(14,12,64,1) 100%);
 }
 
+
 /* conocimientos en programacion web */
 
 .conocimientos .version{
@@ -131,6 +137,7 @@ section .inicio{
 .conocimientos .front{
     box-shadow: 0 4px 8px 0 rgba(39, 131, 218, 0.9), 0 6px 20px 0 rgba(39, 131, 218, 0.9);
 }
+
 .conocimientos .back{
     box-shadow: 0 4px 8px 0 rgba(238,152,72, 0.9), 0 6px 20px 0 rgba(238,152,72, 0.9);;
 }
@@ -184,4 +191,5 @@ section .inicio{
 .redes .mail:hover{
     color:rgb(211,46,27);
     scale: 1.1;
+    
 }
